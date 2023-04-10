@@ -1,0 +1,137 @@
+.fontFamily {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 
+    'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 
+    'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+
+#withoutUserHome {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    flex-wrap: nowrap;
+    margin: auto;
+    padding-top: 12px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 1128px;
+}
+
+.logo {
+    height: 34px;
+}
+
+#withoutUserHome ul {
+    display: flex;
+}
+
+#withoutUserHome ul li {
+    margin-left: 5px;
+}
+
+#withoutUserHome ul li:first-child{
+    margin-left: 0px;
+}
+
+.homenav {
+    text-decoration: none;
+    font-weight: 550;
+}
+
+#signInButton {
+    color: #0a66c2;
+    padding: 15px 25px;
+    border-radius: 50px;
+    border: #0a66c2;
+    border-style: solid;
+}
+
+#signInButton:hover {
+    background-color: #c7dbef;
+}
+
+#signInButton:focus {
+    outline: none;
+    background-color: #a4c7eb;
+}
+
+#signUpButton {
+    color: #5e5d5d;
+    padding: 15px 20px;
+    border-radius: 50px;
+}
+
+#signUpButton:hover {
+    background-color: #e3e3e3;
+}
+
+#loginHeader {
+    background-color: white;
+    left: 0;
+    padding: 0 24px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+#headBackground {
+    background-color: white;
+}
+
+#withUserHome {
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    min-height: 100%;
+    max-width: 1128px;
+}
+
+#withUserHomeLogo {
+    height: 60px;
+    vertical-align: top;
+}
+
+#searchBar {
+    line-height: 1.75;
+    font-weight: 400;
+    font-size: 14px;
+    height: 34px;
+    background-color: #eef3f8;
+    border-radius: 4px;
+    padding: 0 0.8rem 0 40px;
+    border-style: none;
+}
+
+#logout {
+    align-items: center;
+    background: transparent;
+    color: var(--color-icon-nav);
+    cursor: pointer;
+    font-weight: 400;
+    justify-content: center;
+    text-align: center;
+    min-height: 52px;
+    min-width: 80px;
+    position: relative;
+    text-decoration: none;
+}
+
+#logout:hover {
+    background-color: #c7dbef;
+    cursor: pointer;
+}
+
+#withUserHome > ul {
+    margin-left: auto;
+    min-height: 52px;
+    display: block;
+    opacity: 1;
+}
+
+#withUserHome > ul > li {
+    display: flex;
+    align-items: center;
+}
